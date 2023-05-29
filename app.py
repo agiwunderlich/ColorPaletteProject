@@ -48,12 +48,8 @@ def prompt_to_palette():
 
 @app.route("/")
 def index():
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        prompt="Give me a funny word: "
-    )
-    #return render_template("index.html")
-    return response["choices"][0]["text"]
+    
+    return render_template("index.html")
 
 if __name__=="__main__":
     app.run(debug=True)
