@@ -8,6 +8,8 @@ The Color Generator Web Application allows you to effortlessly create beautiful 
 
 Once the colors and their codes appear on the screen, you can easily copy them to your clipboard with a single click. This makes it convenient to use the generated colors in your design projects, web development, or any other creative endeavors.
 
+![Macaron Colors](macaron.png)
+
 ## Usage
 
 Follow the instructions below to run the web application on your local machine:
