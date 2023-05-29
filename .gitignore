@@ -1,0 +1,29 @@
+.env
+
+# Python cache fájlok
+__pycache__/
+*.pyc
+
+# Python virtuális környezetek
+venv/
+env/
+.venv/
+
+# Log fájlok
+*.log
+
+# IDE specifikus fájlok és mappák (például PyCharm)
+.idea/
+.vscode/
+
+# Flask fájlok
+instance/
+
+# Build fájlok
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
