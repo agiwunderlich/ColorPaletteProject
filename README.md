@@ -10,6 +10,12 @@ Once the colors and their codes appear on the screen, you can easily copy them t
 
 ![Macaron Colors](macaron.png)
 
+## Prerequisites
+
+- Python 3.6 or higher
+- OpenAI API Key
+
+
 ## Usage
 
 Follow the instructions below to run the web application on your local machine:
@@ -41,7 +47,14 @@ Follow the instructions below to run the web application on your local machine:
    pip install -r requirements.txt
    ```
 
-6. Run the Flask application by executing the following command:
+6. Create a file named `.env` in the project root directory and add the following line:
+   OPENAI_API_KEY=your-api-key
+   Replace `your-api-key` with your actual OpenAI API Key.
+   
+   Please note that the OpenAI API Key is required to use the application. 
+   If you don't have an API Key yet, you can obtain one from the OpenAI website (https://openai.com) by creating an account and generating an API Key.
+   
+7. Run the Flask application by executing the following command:
 
    ```
    flask run
