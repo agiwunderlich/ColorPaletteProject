@@ -9,8 +9,10 @@ The Color Generator Web Application allows you to effortlessly create beautiful 
 Once the colors and their codes appear on the screen, you can easily copy them to your clipboard with a single click. This makes it convenient to use the generated colors in your design projects, web development, or any other creative endeavors.
 
 ![Macaron Colors](macaron.png)
+![wapalette](https://github.com/agiwunderlich/ColorPaletteProject/assets/35004717/fbf7603d-2353-427c-ab36-3f45dc65514d)
 
-## Prerequisites
+## Prerequisites!
+
 
 - Python 3.6 or higher
 - OpenAI API Key
